@@ -1,10 +1,12 @@
+@import "./util/fonts.scss";
+
 .hero {
+    font-family: 'DancingScript-Bold';
     display: flex;
     height: 500px;
     width: 500px;
-    color: aqua;
+    color: rgb(37, 141, 17);
     font-weight: bold;
     font-size: 34px;
-    background-image: url('../img/img2.png');
     justify-content: center;
 }
